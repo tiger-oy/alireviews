@@ -1,6 +1,6 @@
 {
   "name": "Aliexpress easy Reviews",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "View aliexpress product reviews on list page without open the product detail page",
   "action": {
@@ -29,8 +29,10 @@
       "matches": [
         "https://*.aliexpress.com/w/wholesale*",
         "https://*.aliexpress.com/category*",
+        "https://*.aliexpress.com/af/*",
         "https://*.aliexpress.us/w/wholesale*",
-        "https://*.aliexpress.us/category*"
+        "https://*.aliexpress.us/category*",
+        "https://*.aliexpress.us/af/*"
       ]
     }
   ]

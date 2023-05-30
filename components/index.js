@@ -3,7 +3,7 @@
 $(document).ready(() => {
     // console.log('load index.sj');
     (async () => {
-        if (location.href.includes("w/wholesale") || location.href.includes("/category")) {
+        if (location.href.includes("w/wholesale") || location.href.includes("/category") || location.href.includes("/af/")) {
 
             appendModalHtml();
             handleProductItems();
